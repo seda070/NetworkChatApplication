@@ -12,7 +12,8 @@ A simple chat application built in C for real-time communication over a network.
    ```bash
    git clone https://github.com/seda070/NetworkChatApplication.git
 2.Navigate to the project directory:
-cd NetworkChatApplication
+   ```bash
+   cd NetworkChatApplication
 
 3.Compile the project:
 gcc server.c clientList.c -o server
