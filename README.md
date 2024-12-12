@@ -11,10 +11,15 @@ A simple chat application built in C for real-time communication over a network.
 1. Clone the repository:
    ```bash
    git clone https://github.com/seda070/NetworkChatApplication.git
-2.Navigate to the project directory:
+2. Navigate to the project directory:
    ```bash
    cd NetworkChatApplication
-3.Compile the project:
+3. Compile the project:
+   ```bash
    gcc server.c clientList.c -o server
    gcc client.c -o client
-4.Usage:
+4. Usage:
+   ```bash
+   Usage: ./server <PORT>  (--optional - default 8080)
+   Usage: ./client <IP_ADDRESS> <PORT>
+
