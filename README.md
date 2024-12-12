@@ -15,8 +15,6 @@ A simple chat application built in C for real-time communication over a network.
    ```bash
    cd NetworkChatApplication
 3.Compile the project:
-   ```bash
    gcc server.c clientList.c -o server
    gcc client.c -o client
-4.Usage
-``` BASH
+4.Usage:
