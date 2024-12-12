@@ -14,14 +14,16 @@ A simple chat application built in C for real-time communication over a network.
 2.Navigate to the project directory:
    ```bash
    cd NetworkChatApplication
-
 3.Compile the project:
-gcc server.c clientList.c -o server
-gcc client.c -o client
+   ```bash
+   gcc server.c clientList.c -o server
+   gcc client.c -o client
 4.Usage
-Starting the server
-Usage: ./server <PORT>  (--optional - default 8080)
-Starting the client
-Usage: ./client <IP_ADDRESS> <PORT>
+   ```bash
+   Starting the server
+   Usage: ./server <PORT>  (--optional - default 8080)
+   ```bash
+   Starting the client
+   Usage: ./client <IP_ADDRESS> <PORT>
 
 
